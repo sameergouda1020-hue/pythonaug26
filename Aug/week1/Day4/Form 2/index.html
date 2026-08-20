@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+
+  <body bgcolor="aqua">
+
+    <table border="2" width="90%" align="center">
+      <tr>
+        <th>
+          <h1>Student Registration Form</h1>
+        </th>
+      </tr>
+    </table>
+
+    <br>
+
+    <form>
+
+      <label for="name-input">Name :</label>
+      <input
+        type="text"
+        placeholder="Enter full name"
+        name="name"
+        id="name-input"
+      />
+
+      <br><br>
+
+      <label for="father-input">Father's Name :</label>
+      <input
+        type="text"
+        name="fatherName"
+        id="father-input"
+      />
+
+      <br><br>
+
+      <label for="mother-input">Mother's Name :</label>
+      <input
+        type="text"
+        name="motherName"
+        id="mother-input"
+      />
+
+      <br><br>
+
+      <label for="phone-input">Phone Number :</label>
+      <input
+        type="tel"
+        placeholder="017xxxxxxxx"
+        name="phone"
+        id="phone-input"
+      />
+
+      <br><br>
+
+      <label for="email-input">Email :</label>
+      <input
+        type="email"
+        placeholder="sample@example.com"
+        name="email"
+        id="email-input"
+      />
+
+      <br><br>
+
+      <label>Gender :</label>
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="other">Other
+
+      <br><br>
+
+      <label>Date Of Birth :</label>
+      <input type="text" size="4"> -
+      <input type="text" size="4"> -
+      <input type="text" size="8">
+      <i>(dd-mm-yyyy)</i>
+
+      <br><br>
+
+      <label for="address-input">Address :</label>
+      <input
+        type="text"
+        placeholder="Street:-   House:-   Road:-"
+        name="address"
+        id="address-input"
+        size="50"
+      />
+
+      <br><br>
+
+      <label for="blood-input">Blood Group :</label>
+      <select name="bloodGroup" id="blood-input">
+        <option>Select</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+        <option>O+</option>
+        <option>O-</option>
+      </select>
+
+      <br><br>
+
+      <label>Department :</label>
+      <input type="radio" name="department" value="cse">CSE
+      <input type="radio" name="department" value="eee">EEE
+      <input type="radio" name="department" value="bba">BBA
+
+      <br><br>
+
+      <label>Course :</label>
+      <input type="checkbox" name="course" value="c">C
+      <input type="checkbox" name="course" value="cpp">C++
+      <input type="checkbox" name="course" value="java">Java
+      <input type="checkbox" name="course" value="ai">AI
+      <input type="checkbox" name="course" value="machine-learning">Machine learning
+      <input type="checkbox" name="course" value="robotics">Robotics
+
+      <br><br>
+
+      <label for="photo-input">Photo :</label>
+      <input
+        type="file"
+        name="photo"
+        id="photo-input"
+      />
+
+      <br><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+
+    </form>
+
+  </body>
+</html>
