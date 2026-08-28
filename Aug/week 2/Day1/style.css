@@ -1,0 +1,27 @@
+h4{
+    background-color: brown;
+    /* color: darkslateblue; */
+}
+
+#paragraph{
+    color: blue;
+    font-size: 20px;
+}
+
+.para-class{
+    color: brown;
+}
+
+h5{
+    color: aqua;
+}
+
+p,h5{
+    color: darkgoldenrod;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+*{
+ padding: 0;
+ margin: 0;
+}

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  background-color: red;
+  /* border-width: 10px;
+    border-style: dashed;
+    border-color: blue; */
+  /* border: 5px solid blue; */
+}
+
+.box{
+    width: 150px;
+    background-color: blue;
+    border: 10px solid red;
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 5px; */
+    padding: 20px 30px;
+    margin: 20px 30px 40px 30px;
+}
+
+.img-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url("https://headsupfortails.com/cdn/shop/articles/Welcoming_a_Cat_to_a_New_Home_x630.jpg?v=1741258295");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* display */
+
+.show-container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* display: none; */
+    /* visibility: visible; */
+
+}
+
+.para{
+    background-color: blue;
+    display: inline;
+    width: 600px;
+}
+b{
+    background-color: indianred;
+    display: block;
+    width: 200px;
+}
+
+strong{
+    background-color: aqua;
+    display: inline-block;
+    width: 300px;
+}
+
+.container{
+    width: 620px;
+    height: 200px;
+    margin:40px auto ;
+    border: 3px dotted blue;
+    padding: 2px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction:column-reverse ; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* row-gap: 4px; */
+    /* column-gap: 3px; */
+    /* gap: 3px; */
+
+    flex-wrap: nowrap;
+
+}
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+
