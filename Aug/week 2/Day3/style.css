@@ -6,20 +6,20 @@
 
 p {
   background-color: red;
-  /* border-width: 10px;
+  border-width: 10px;
     border-style: dashed;
-    border-color: blue; */
-  /* border: 5px solid blue; */
+    border-color: blue; 
+   border: 5px solid blue; 
 }
 
 .box{
     width: 150px;
     background-color: blue;
     border: 10px solid red;
-    /* padding-top: 20px;
+    padding-top: 20px;
     padding-right: 40px;
     padding-bottom: 10px;
-    padding-left: 5px; */
+    padding-left: 5px; 
     padding: 20px 30px;
     margin: 20px 30px 40px 30px;
 }
