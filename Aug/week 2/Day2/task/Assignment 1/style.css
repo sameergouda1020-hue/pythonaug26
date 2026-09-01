@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+}
+
+.parent {
+  width: 90%;
+}
+
+.parent p {
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.red {
+  color: #d00000;
+}
+
+.green {
+  color: green;
+  text-decoration: underline;
+}
+
+.normal {
+  color: #222222;
+}
+
+.child3 p {
+  font-size: 20px;
+}
+
+.box {
+  width: 500px;
+}
+
+.heading {
+  font-weight: 600;
+}
+
+.row:nth-child(2n + 0) {
+  background-color: #333333;
+  color: white;
+}
+
+.row {
+  font-size: 20px;
+}

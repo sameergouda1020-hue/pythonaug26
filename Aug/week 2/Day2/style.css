@@ -1,0 +1,132 @@
+/* combinator selector
+   => Descendent selector (we can target both direct child as well the indirect child)
+   => direct child selector
+   => Adjascent sibling selector
+   => general sibling selector
+*/
+
+/* .parent p{
+    background-color: red;
+} */
+
+/* .parent>p{
+    background-color: blue;
+} */
+
+/* .parent+p{
+    background-color: aqua;
+} */
+
+/* .parent~p{
+    background-color: brown;
+} */
+
+/* Attribute */
+/* div[id="box-id1"]{
+    background-color: red;
+} */
+
+/* pseudo class selector */
+/* :hover
+   :active
+   :focus
+   :first-child
+   :last-child
+   :nth-child()
+*/
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+/* .box:hover {
+  background-color: red;
+}
+
+.box:active {
+  background-color: yellow;
+} */
+input:focus {
+  background-color: green;
+  /* border: none; */
+}
+
+ul li:first-child {
+  background-color: red;
+}
+ul li:last-child {
+  background-color: blue;
+}
+ul li:nth-child(2n + 0) {
+  background-color: darkseagreen;
+}
+
+/*  pseudo element selector
+    =>::first-letter
+    =>::first-line
+    =>::after
+    =>::before
+    =>::selection
+*/
+
+/* .box::first-letter{
+    background-color: red;
+} */
+/* .box::first-line{
+    background-color: red;
+} */
+/* .box::after{
+    content: "hiii";
+}
+.box::before{
+    content: "bye";
+} */
+
+/* .box::selection{
+    background-color: green;
+} */
+
+/* color property */
+.para {
+  /* color: red;
+    color: #3519d185;
+    color: rgb(20, 200, 100);
+    color: rgba(200, 200, 100, 1); */
+  /* font-size: 50px; */
+  /* font-family: fantasy; */
+  /* font-style: italic; */
+  /* font-weight: 600; */
+}
+
+/* unit
+  => absolute (px,pc,pt,cm,mm,in)
+  => relative  (%,vh,vw,em,rem)
+*/
+
+/* .para-container {
+  background-color: red;
+  width: 50%;
+}
+ .para {
+  width: 20%;
+} */
+
+/* body{
+    background-color: red;
+} */
+
+
+/* section{
+    width: 30vw;
+    height: 20vh;
+    background-color: blue;
+} */
+
+/* .para-container{
+    font-size: 20px;
+}
+.para{
+    font-size: 2rem;
+} */

@@ -1,12 +1,14 @@
-div{
-   
+div {
     background-color: rgb(208, 211, 213);
     font-size: large;
     height: 200px;
     width: 200px;
 }
- form {
-display: inline;
-    
 
- }
+form {
+    display: inline;
+}
+.form-container{
+    display: inline;
+    gap: 20px;
+}
