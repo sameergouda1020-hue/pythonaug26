@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+ .grid-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 25px;
+}
+ 
+ 
+ .grid-container img {
+  
+  height:auto;
+  width: 100%;
+   
+ }
+ 
+ 
