@@ -122,22 +122,25 @@ switch (choice) {
   }
 }
 
-let stdScore="60";
+let stScore="60";
 
 switch (true) {
-  case "stdScore >= 90":
+  case "stScore >= 90":
     console.log("A");
     break;
-  case "stdScore >= 80":
+  case "stScore >= 80":
     console.log("B");
     break;
-  case "stdScore >= 60":
+  case "stScore >= 60":
     console.log("C");
     break;
-  case "stdScore >= 40":
+  case "stScore >= 40":
     console.log("D");
     break;
  
   default:
     console.log("F");
 }
+
+
+
